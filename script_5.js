@@ -21,12 +21,3 @@ console.log(bitcoin);
 
 
 // La ou les crypto qui ont la plus grosse valeur
-answers = []
-answers.push( `Highest currency is: ${currencies[values.indexOf(Math.max(...values))]}` )
-answers.push( `Lowest currency is: ${currencies[values.indexOf(Math.min(...values))]}` )
-
-
-
-let cryptosWithCoin = 0
-  currencies.forEach( (currency,i) => { if(currency.includes("coin")) {cryptosWithCoin += 1} } )
-  answers.push( `${cryptosWithCoin} cryptos contiennent le mot "coin"` )
