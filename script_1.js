@@ -1,4 +1,5 @@
 
+function script_1() {
 // Hello World ! 
 let a = "Bonjour monde!";
 console.log(a);
@@ -7,3 +8,4 @@ console.log(a);
 let name;
 name = prompt("Comment t'appelles-tu? ");
 console.log(`Bonjour ${name}!`)
+}

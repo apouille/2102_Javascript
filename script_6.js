@@ -1,4 +1,5 @@
 
+function script_6() {
 const entrepreneurs = [
     { first: 'Steve', last: 'Jobs', year: 1955 },
     { first: 'Bill', last: 'Gates', year: 1955 },
@@ -51,3 +52,4 @@ console.log(age)
 
 console.log("Ci-dessous la liste par ordre alphabétique des entrepreneurs")
 console.log(entrepreneurs.sort((a, b) => a.last.localeCompare(b.last)));
+}

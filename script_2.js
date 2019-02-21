@@ -1,5 +1,5 @@
 
-
+function script_2() {
 //1) Déclaration des variables
 let inputNumber;
 
@@ -13,4 +13,5 @@ function factorial(inputNumber) {
 }
 
 //4) Dans la console le résultat suivant est affiché
-console.log(`Le résultat est `+ factorial(inputNumber));                            
+console.log(`Le résultat est `+ factorial(inputNumber));  
+}
